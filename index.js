@@ -6,6 +6,33 @@ function results() {
   var year =parseInt(document.getElementById("year").value);
   var day =parseInt(document.getElementById ("day").value);
   var date =new Date(year +"/"+month+"/"+ day);
+  var gender = print()
+  var day1= date.getDay();
+  var akan;
+
+
+function results() {
+  if (day<1 || day >31) {
+    alert ("invalid date");
+    return false;
+  }
+  if (month< 1 || month > 12){
+    alert("invalid month");
+    return false;
+  }
+  if (year< 1890 || year > 2030){
+  alert("inavalid year")
+  return false;
+  }
+  if(gender =="male"){
+    akan =akanMale[day1];
+  }else{
+    akan =akanFemale[day1];
+  }
+
+    }
+  // }
+// }
 
 
 
