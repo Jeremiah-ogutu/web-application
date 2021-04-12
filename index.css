@@ -1,6 +1,8 @@
 body{
     background-color: aqua;
-    background-image: url(/image/Akan.jpg);
+    /* background-image: url(image/Akan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
   }
 .field{
   background-color: rgb(192, 219, 219);
