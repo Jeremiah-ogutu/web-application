@@ -29,10 +29,14 @@ function results() {
   }else{
     akan =akanFemale[day1];
   }
-
+  alert("You were born on" + dayOfTheWeek[day1]+"and your akan names is"+akan);
+}
+  function print(){
+    var gender= documents.getElementsByName("gender");
+    for(i=0;i<gender.length;i++){
+      if(gender[i].checked){
+        return(gender[i].value)
+      }
     }
-  // }
-// }
-
-
-
+  }
+}
