@@ -10,9 +10,9 @@ terminal $ sudo apt install git -all
 run the terminal
 let it open in vs code.
 ### Technologies used
-HTML 
-CSS 
-JS 
+HTML, 
+CSS, 
+JS ,
 ### Live site
  https://jeremiah-ogutu.github.io/web-application/
 ### LICENCE

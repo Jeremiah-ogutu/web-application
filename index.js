@@ -6,7 +6,6 @@ function results() {
   var year =parseInt(document.getElementById("year").value);
   var day =parseInt(document.getElementById ("day").value);
   var date =new Date(year +"/"+month+"/"+ day);
-  var gender = print()
   var day1= date.getDay();
   var akan;
 
