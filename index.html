@@ -12,33 +12,29 @@
     <h2>The Akan names</h2>
     <p>In west Africa new borns are given spescial names depending on the day they are born <br> Diverse ethicitiees have variats and meaning as a symbolof cultural integrity.</p>
     <p>In this form when you fill your date of birth year and monthyou will come to know your Akan names and the day your born.</p>
-    <img src="image/Akan.jpg" alt="Akan">
-    <img src="image/names.png" alt="Akannames">
+    <!-- <img src="image/Akan.jpg" alt="Akan"> -->
+    <img src="image/akan-naming-by-day-jpeg.jpg" alt="Akannames">
     <!-----------------personalDetails----------------------->
-    <div class="field">
-    <fieldset>
-<legend>Personal Details</legend>
-<br>
-<div>
-    <label id="name-label" for="name.optional">Name.(Optional)</label> -->
-     <input type="text" required id="name"name="Address" placeholder="Enter name here"></div>
-   <br>
+   <form id="form">
     <div>
-      <label for="day-lable">Day of birth</label>
-      <input type="number" id="month" min="01" max="12" placeholder="MM" value="">
-      <input type="number" id="day" min="01" max="31" placeholder="DD" value="">
-      <input type="number" id="year" min="1890" max="2030" placeholder="YYY" value="">
-    </div>
-    <label for="Gender">Gender</label>
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" required id="name" name="User_name" placeholder="Enter name here"> </div>
     <div>
-        <input type="radio" name="gender" value="Male">Male<br>
-        <input type="radio" name="gender" value="Female">Female<br>
-        <input type="radio" name="gender" value="Others">Others<br>
-    </div> -->
-    </fieldset>
-    </div>
-    <input type="submit" value="submit" class="btn btn-primary btn-lg" onclick="results()">
-
+        <input type="date" name="DOB"/><br>
+        <div>
+            <!-- <label for="day-lable">Day of birth</label>
+            <input type="number" id="month" min="01" max="12" placeholder="MM" value="">
+            <input type="number" id="day" min="01" max="31" placeholder="DD" value="">
+            <input type="number" id="year" min="1890" max="2030" placeholder="YYY" value=""> -->
+          </div>
+       <p>
+           <input type="radio" name="gender" value="male">Male<br>
+           <input type="radio" name="gender" value="female">Female<br>
+           <input type="radio" name="gender" value="Others">Others<br>
+       </p>
+       <input type="submit" value="get akan name"/>
+   </form>
+   <script src="/jquery-3.6.0.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
